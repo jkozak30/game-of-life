@@ -1,9 +1,14 @@
 hello
-this repo contains a visual of conway's game of life that runs in the terminal
+this repo contains a visual of conway's game of life that runs in the terminal. It'll stop once the board state stops changing.
 
+recommendations:
+- if the board state begins to cycle, use CTRL+C
+- fullscreen in default terminal: length 22, width 40
+- fullscreen in fullscreen terminal: length 62, width 102 (at least for my macbook)
+
+instructions:
 1. clone this repo
 2. run in its directory:
-  $ g++ -o C Conway.cpp
   $ ./C
 3. enter board size
 4. watch game of life
