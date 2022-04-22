@@ -1,0 +1,9 @@
+hello
+this repo contains a visual of conway's game of life that runs in the terminal
+
+1. clone this repo
+2. run in its directory:
+  $ g++ -o C Conway.cpp
+  $ ./C
+3. enter board size
+4. watch game of life
